@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohamed Elsabagh - SOC Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <style>
+    
+    .profile-img {
+      background: linear-gradient(45deg, #1e3a8a, #60a5fa);
+      padding: 4px;
+    }
+  
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 64px;
+        left: 0;
+        width: 100%;
+        background: #1e3a8a;
+        padding: 1rem;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+ 
+  <nav class="bg-blue-950 text-white w-full shadow-lg">
+    <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold"><i class="fas fa-shield-alt mr-2"></i>Mohamed Elsabagh</h1>
+      <button class="md:hidden focus:outline-none" onclick="toggleMenu()">
+        <i class="fas fa-bars text-2xl"></i>
+      </button>
+      <ul class="nav-links flex space-x-6 md:flex">
+        <li><a href="#home" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Home</a></li>
+        <li><a href="#about" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">About</a></li>
+        <li><a href="#skills" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Skills</a></li>
+        <li><a href="#education" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Education</a></li>
+        <li><a href="#experience" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Experience</a></li>
+        <li><a href="#projects" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Projects</a></li>
+        <li><a href="#certifications" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Certifications</a></li>
+        <li><a href="#contact" class="hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md transition duration-300">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+ 
+  <header id="home" class="bg-blue-900 text-white py-16 text-center">
+    
+    <div class="profile-img rounded-full w-32 h-32 mx-auto mb-4">
+      <img src="WhatsApp Image 2025-05-29 at 00.33.55_d157423d.jpg" alt="Mohamed Elsabagh" class="rounded-full w-full h-full object-cover">
+    </div>
+    <h1 class="text-4xl font-bold">Mohamed Elsabagh</h1>
+    <p class="text-xl mt-2">Security Operations Center (SOC) Enthusiast</p>
+    <p class="mt-2">Protecting digital assets with advanced cybersecurity skills</p>
+  </header>
+
+ 
+  <section id="about" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center text-blue-400 mb-8"><i class="fas fa-user-shield mr-2"></i>About Me</h2>
+    <p class="text-lg text-gray-300 text-center">
+      I'm a third-year Computer Science student at 6th of October University, specializing in cybersecurity and Security Operations Center (SOC) practices. With hands-on experience in threat detection, incident response, and network security, I am passionate about securing digital environments using tools like Splunk, QRadar, Wireshark, and Fortinet. My participation in CTF competitions and ethical hacking exercises enhances my ability to tackle real-world cyber threats.
+    </p>
+  </section>
+
+ 
+  <section id="skills" class="bg-gray-800 py-12 px-4">
+    <h2 class="text-3xl font-semibold text-center text-blue-400 mb-8"><i class="fas fa-tools mr-2"></i>Skills</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto text-center">
+      <div class="p-4 bg-blue-900 rounded-lg">SIEM Tools (Splunk, QRadar)</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Network Security (CCNA)</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Cybersecurity (Security+)</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Ethical Hacking (CEH)</div>
+      <div class="p-4 bg-blue-900 rounded-lg">CTF Competitions</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Incident Response</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Log Analysis</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Firewall Configuration</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Threat Intelligence</div>
+      <div class="p-4 bg-blue-900 rounded-lg">Python for Security</div>
+    </div>
+  </section>
+
+
+  <section id="education" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center text-blue-400 mb-8"><i class="fas fa-graduation-cap mr-2"></i>Education</h2>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md flex items-center">
+      <img src="جامعة 6 أكتوبر.webp" alt="6th of October University Logo" class="w-16 h-16 mr-4">
+      <div>
+        <h3 class="text-xl font-semibold">6th of October University</h3>
+        <p class="text-gray-400">Bachelor of Computer Science, 2022 - 2026</p>
+        <p class="text-gray-400">Third Year, Giza, Egypt</p>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="experience" class="bg-gray-800 py-12 px-4">
+    <h2 class="text-3xl font-semibold text-center text-blue-400 mb-8"><i class="fas fa-briefcase mr-2"></i>Experience</h2>
+    <div class="bg-gray-700 p-6 rounded-lg shadow-md max-w-5xl mx-auto">
+      <h3 class="text-xl font-semibold">SOC Intern</h3>
+      <p class="text-gray-400">Orange Egypt, Cybersecurity Division, Cairo, Egypt</p>
+      <p class="text-gray-400">Summer 2024</p>
+      <ul class="list-disc list-inside text-gray-400 mt-2">
+        <li>Monitored network traffic using Splunk to detect and analyze potential threats in real-time.</li>
+        <li>Assisted in incident response by triaging security alerts and documenting mitigation strategies.</li>
+        <li>Contributed to vulnerability assessment reports, collaborating with the SOC team to enhance network security protocols.</li>
+      </ul>
+    </div>
+    <div class="bg-gray-700 p-6 rounded-lg shadow-md max-w-5xl mx-auto mt-6">
+      <h3 class="text-xl font-semibold">SOC and Network Security Trainee</h3>
+      <p class="text-gray-400">We Innovate, Cairo, Egypt</p>
+      <p class="text-gray-400">Spring 2024</p>
+      <ul class="list-disc list-inside text-gray-400 mt-2">
+        <li>Utilized QRadar and Splunk for real-time monitoring of network traffic and threat detection, applying Security+ principles.</li>
+        <li>Analyzed network packets using Wireshark to identify vulnerabilities, leveraging CCNA knowledge and ethical hacking techniques.</li>
+        <li>Configured Fortinet firewalls to enforce security policies and protect network infrastructure.</li>
+        <li>Participated in CTF-style exercises and incident response drills to simulate cyber attacks and enhance response capabilities.</li>
+      </ul>
+    </div>
+  </section>
+
+  
+  <section id="projects" class="bg-gray-800 py-12 px-4">
+    <h2 class="text-3xl font-semibold text-center text-blue-400 mb-8"><i class="fas fa-project-diagram mr-2"></i>Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold">Threat Monitoring Dashboard</h3>
+        <p class="text-gray-400">Developed a real-time threat monitoring dashboard using Splunk. The dashboard visualizes security events, network anomalies, and alerts, enabling rapid response to potential threats.</p>
+        <a href="https://github.com/yourusername/threat-dashboard" class="text-blue-400 hover:underline">View on GitHub</a>
+      </div>
+      <div class="bg-gray-700 p-6 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold">Network Intrusion Detection Tool</h3>
+        <p class="text-gray-400">Built a Python-based tool integrated with Wireshark to analyze network traffic, detect suspicious activities, and generate reports on potential intrusions.</p>
+        <a href="https://github.com/yourusername/intrusion-detection" class="text-blue-400 hover:underline">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section id="certifications" class="py-12 px-4 max-w-5xl mx-auto">
+    <h2 class="text-3xl font-semibold text-center text-blue-400 mb-8"><i class="fas fa-certificate mr-2"></i>Certifications</h2>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md">
+      <h3 class="text-xl font-semibold">Splunk Fundamentals 1</h3>
+      <p class="text-gray-400">Splunk, 2024</p>
+      <p class="text-gray-400">Completed training on Splunk's core features for log analysis and threat detection.</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md mt-6">
+      <h3 class="text-xl font-semibold">CompTIA Security+</h3>
+      <p class="text-gray-400">CompTIA, 2024</p>
+      <p class="text-gray-400">Gained foundational knowledge in cybersecurity, including network security and incident response.</p>
+    </div>
+    <div class="bg-gray-800 p-6 rounded-lg shadow-md mt-6">
+      <h3 class="text-xl font-semibold">Cisco CCNA</h3>
+      <p class="text-gray-400">Cisco, 2024</p>
+      <p class="text-gray-400">Mastered networking fundamentals, including routing, switching, and network security.</p>
+    </div>
+  </section>
+
+  
+  <section id="contact" class="py-12 px-4 text-center bg-blue-900">
+    <h2 class="text-3xl font-semibold text-white mb-8"><i class="fas fa-envelope mr-2"></i>Get in Touch</h2>
+    <p class="text-lg text-gray-200 mb-4">Feel free to contact me for collaboration or inquiries!</p>
+    <div class="flex justify-center gap-4">
+      <a href="mailto:m00jexx@gmail.com" class="bg-white text-blue-900 px-4 py-2 rounded-lg hover:bg-gray-200">
+        <i class="fas fa-envelope mr-2"></i>Email
+      </a>
+      <a href="https://wa.me/+201556558276" class="bg-white text-blue-900 px-4 py-2 rounded-lg hover:bg-gray-200">
+        <i class="fab fa-whatsapp mr-2"></i>WhatsApp
+      </a>
+      <a href="https://linkedin.com/in/yourusername" class="bg-white text-blue-900 px-4 py-2 rounded-lg hover:bg-gray-200">
+        <i class="fab fa-linkedin mr-2"></i>LinkedIn
+      </a>
+      <a href="https://github.com/yourusername" class="bg-white text-blue-900 px-4 py-2 rounded-lg hover:bg-gray-200">
+        <i class="fab fa-github mr-2"></i>GitHub
+      </a>
+    </div>
+  </section>
+
+
+  <footer class="bg-gray-950 text-white text-center py-4">
+    <p>© 2025 Mohamed Elsabagh. All rights reserved.</p>
+  </footer>
+
+  <script>
+  
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  
+    function toggleMenu() {
+      const menu = document.querySelector('.nav-links');
+      menu.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
